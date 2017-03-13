@@ -1,0 +1,70 @@
+/* Style for our header texts
+	* --------------------------------------- 
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}*/
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Overwriting styles for the navigation dots (to place it where we want)
+	* --------------------------------------- */
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	img{max-width: 960px;}
+	#section2 h1{
+		color: #333;
+	}
+
+	#morph-example {
+	    /*width: auto;*/
+	    height: 330px;
+	}
+	.graph{
+		fill: #37c;
+		height: 150px;
+		/*width: 660px;*/
+		padding-top: 10px;
+		margin:auto;
+		overflow: hidden;
+		background-color: #eaf5ff;
+		border-bottom:2px solid #37c;
+		border-left: 1px solid #bbb;
+		border-right: 1px solid #bbb;
+		border-top: 1px solid #bbb;
+	}
+	.bar{border-bottom: 2px solid #49c;padding: 0 30px;}
+	#fp-nav ul li a span, .fp-slidesNav ul li a span{
+		background-color: #37c;
+	}
+	pre .comment{
+		color: #e06870;
+	}
+	.tooltip::after{
+		font-size: 0.7em;
+	    line-height: 3.5rem; 
+        max-width: 100%;
+    }
+    .dropdown{
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    }
