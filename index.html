@@ -71,7 +71,16 @@
 		<div class="slide" id="slide2" data-anchor="slide2">
 			<h2>Consegna del progetto</h2>
 			<h3>Scanner d'ambiente</h3>
-			<p>adadada</p>
+			<div class="container grid-960">
+			    <div class="columns">
+			        <div class="column col-1 hide-lg"></div>
+			        <div class="column col-10 col-lg-12">
+					<h4>Si progetti uno scanner ambientale con sonar capace di collezionare il valore di distanza acquisito dal sensore HC-SR04 ed effettuare una scansione a 360° dell'ambiente circostante, raccogliere i dati e presentarli graficamente. Predisporre l'applicazione all'accesso a rete wifi utilizzando l'interfaccia wireless integrata, il sistema deve integrare un webserver minimale per la visualizzazione del valore di distanza.</h4>
+			        </div>
+			        <div class="column col-1 hide-lg"></div>
+			    </div>
+			</div>
+			
 		</div>
 		<div class="slide" id="slide3" data-anchor="slide3">
 			<h2>Concetti base</h2>
@@ -185,6 +194,13 @@
 			<img style="max-width: 60%;" src="./img/us_bounce.png">
 		</div>
 		<div class="slide" id="slide5" data-anchor="slide5">
+			<h2>Soluzione introdotta</h2>
+			<h4>Mediare i rilevamenti consecutivi per ogni posizione</h4>
+			<div class="container grid-960">
+				<div id='acc-graph' class="acc-Graph"></div>
+			</div>
+		</div>
+		<div class="slide" id="slide6" data-anchor="slide6">
 			<h2>Utilizzo nel progetto</h2>
 			<h4>com'è stato utilizzato?</h4>
 			<img style="width:100%;" src="./img/us_coords.png">
@@ -259,8 +275,21 @@
 			<img style="width:50%;" src="./img/http_ajax.png">
 		</div>
 		<div class="slide" id="slide5" data-anchor="slide5">
-			<h2>Esempio di pagina</h2>
-			<h4>mostrare sito o immagine rappresentativa</h4>
+		<br/><br/><br/><br/>
+			<h2>Interfaccia Utente</h2>
+			<br/><br/>
+			<div class="columns examples">
+				<div class="column col-1"></div>
+				<div class="column col-5">
+					<img style="height:20%;" src="./img/index1.png">
+				</div>
+				<div class="column col-5">
+					<img style="height:20%;" src="./img/index2.png">
+				</div>
+				<div class="column col-1"></div>
+			
+			
+			</div>
 		</div>
 	</div>
 
@@ -278,6 +307,7 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="./js/jsapi.js"></script>
 <script type="text/javascript" src="./js/examples.js"></script>
 </body>
 </html>
