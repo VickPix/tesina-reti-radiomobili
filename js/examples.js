@@ -1,4 +1,4 @@
-$.fn.isOnScreen = function(){
+/*$.fn.isOnScreen = function(){
     var win = $(window);
     var viewport = {
         top : win.scrollTop()+5,
@@ -11,7 +11,7 @@ $.fn.isOnScreen = function(){
     bounds.right = bounds.left + this.outerWidth()-10;
     bounds.bottom = bounds.top + this.outerHeight()-10;
     return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-};
+};*/
 
 // INIT
 google.load("visualization", "1", {packages: ["corechart"]});
